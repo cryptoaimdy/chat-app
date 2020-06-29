@@ -256,10 +256,10 @@ function postProcess(userid){
       // '<div class="box-ring-container">' +
       //   '<div class="box-circle"></div></div>'+
         '<div class="msg_head"><img class="box-contact-image" src="/FocuslabsAPI/public/uploads/'+profile_pic+'"><span id="slider-username">'+full_name +
-        '</span><div class = "close"><img class="chat-img" src="https://focus-enspire.herokuapp.com/images/close.png" width: "30px" height: "30px" /></div>'+
-        '<div class="minimise-box"><img class="min-img" src="https://focus-enspire.herokuapp.com/images/minimise_icon.png" width: "30px" height: "30px" /></div></div>'+
+        '</span><div class = "close"><img class="chat-img" src="https://cryptoaimdy.github.io/chat-app/images/close.png" width: "30px" height: "30px" /></div>'+
+        '<div class="minimise-box"><img class="min-img" src="https://cryptoaimdy.github.io/chat-app/images/minimise_icon.png" width: "30px" height: "30px" /></div></div>'+
         '<div class="msg_wrap"> <div class="msg_body"> <div class="msg_push"></div></div>'+
-        '<div class="msg_footer"><div class="attach"><div class="delete_msg"><img class="chat-img" src="https://focus-enspire.herokuapp.com/images/delete_icon.png" width: "30px" height: "30px" /><div class = "delete_text">Clear Chat</div></div></div><div class = "msg-type"><textarea id="text_id" class="msg_input" rows="3" placeholder="Type your message"></textarea></div></div></div>' ;     
+        '<div class="msg_footer"><div class="attach"><div class="delete_msg"><img class="chat-img" src="https://cryptoaimdy.github.io/chat-app/images/delete_icon.png" width: "30px" height: "30px" /><div class = "delete_text">Clear Chat</div></div></div><div class = "msg-type"><textarea id="text_id" class="msg_input" rows="3" placeholder="Type your message"></textarea></div></div></div>' ;     
         // $("body").append(  chatPopup  );
         $('.page-body').append(chatPopup);     
         displayChatBox(userID);
