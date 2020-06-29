@@ -46,9 +46,9 @@ socket.on('error', (error) => {
 });
 
 
-var script_tag = document.createElement('script');
-script_tag.setAttribute('src','https://focus-enspire.herokuapp.com/prettydate.js');
-document.head.appendChild(script_tag);
+// var script_tag = document.createElement('script');
+// script_tag.setAttribute('src','https://focus-enspire.herokuapp.com/prettydate.js');
+// document.head.appendChild(script_tag);
 
 
 function initChat(user, usertoken, ip){ 
